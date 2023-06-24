@@ -6,21 +6,17 @@
 /*   By: bifrost <nkeyani-@student.42barcelona.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/22 02:30:17 by bifrost           #+#    #+#             */
-/*   Updated: 2023/06/24 01:49:24 by bifrost          ###   ########.fr       */
+/*   Updated: 2023/06/24 02:26:50 by bifrost          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/*
- passed in ends with the 2nd argument (also a string).
-Examples:
-solution('abc', 'bc') // returns true
-solution('abc', 'd') // returns false
-*/
-
+//Examples:
+//solution('abc', 'bc') // returns true
+//solution('abc', 'd') // returns false
 #include <stdbool.h>
 #include <string.h>
 
-bool	solution(const char *string, const char *ending)
+bool	does_it_end_with(const char *string, const char *ending)
 {
 	bool ends = false;
 
