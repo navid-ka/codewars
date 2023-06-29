@@ -31,7 +31,7 @@ void voidmancer(void)
 {
     long long unsigned int voidmancer = printf("void maximum\n");
     sizeof (void);
-    if (voidmancer != ( long long unsigned int)-1)
+    if (voidmancer != (long long unsigned int )-1)
         return (voidance(), wevoid(), excalivoid(), bigsizevoid(),\
          did_we_see_NULL(), istherevoid());
 }
