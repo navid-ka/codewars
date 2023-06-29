@@ -33,7 +33,7 @@ void voidmancer(void)
     sizeof (void);
     if (voidmancer != ( long long unsigned int)-1)
         return (voidance(), wevoid(), excalivoid(), bigsizevoid(),\
-         did_we_see_NULL());
+         did_we_see_NULL(), istherevoid());
 }
 
 void main(void)
