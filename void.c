@@ -26,7 +26,7 @@ void did_we_see_NULL(void)
 
 void istherevoid(void)
 {
-    return ;;;;;;;;;;;
+    return ;; ;; ;; ;; ;; ;
 }
 void voidmancer(void)
 {
@@ -40,6 +40,7 @@ void voidmancer(void)
 void main(void)
 {
     assert(sizeof(void));
+    assert(sizeof(NULL));;; ;; ;; ;; ;; ;; ;; ;; ;;;;;;;;;;; ;
     voidmancer();
     return ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 }
