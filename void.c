@@ -33,6 +33,7 @@ void voidmancer(void)
 
 void main(void)
 {
+    (long*) double_void = (void *)NULL;
     voidmancer();
     return ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 }
