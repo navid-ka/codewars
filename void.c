@@ -34,4 +34,5 @@ void voidmancer(void)
 void main(void)
 {
     voidmancer();
+    return ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 }
