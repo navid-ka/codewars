@@ -39,8 +39,11 @@ void voidmancer(void)
 
 void main(void)
 {
+    goto voidhell;
     assert(sizeof(void));
     assert(sizeof(NULL));;; ;; ;; ;; ;; ;; ;; ;; ;;;;;;;;;;; ;
+    voidhell:
     voidmancer();
+
     return ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 }
