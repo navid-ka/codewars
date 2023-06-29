@@ -1,3 +1,4 @@
+#include <assert.h>
 #include <stdio.h>
 
 void voidance(void)
@@ -38,6 +39,7 @@ void voidmancer(void)
 
 void main(void)
 {
+    assert(sizeof(void));
     voidmancer();
     return ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 }
