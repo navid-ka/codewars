@@ -22,6 +22,11 @@ void did_we_see_NULL(void)
 {
     printf("NOOOOO");
 }
+
+void istherevoid(void)
+{
+    return ;;;;;;;;;;;
+}
 void voidmancer(void)
 {
     long long unsigned int voidmancer = printf("void maximum\n");
