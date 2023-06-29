@@ -16,14 +16,19 @@ void excalivoid(void)
 void bigsizevoid(void)
 {
     printf("there was nothing \n", sizeof(void), sizeof(void),\
-        sizeof(void), sizeof(void));
+        sizeof(void), sizeof(NULL));
+}
+void did_we_see_NULL(void)
+{
+    printf("NOOOOO");
 }
 void voidmancer(void)
 {
     long long unsigned int voidmancer = printf("void maximum\n");
     sizeof (void);
     if (voidmancer != -1)
-        return (voidance(), wevoid(), excalivoid(), bigsizevoid());
+        return (voidance(), wevoid(), excalivoid(), bigsizevoid(),\
+         did_we_see_NULL());
 }
 
 void main(void)
