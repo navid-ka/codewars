@@ -12,7 +12,7 @@ void wevoid(void)
 }
 void excalivoid(void)
 {
-    printf("one void and another enters in a bar and \n", sizeof(void));
+    printf("how much is void \n", sizeof(void));
 }
 void bigsizevoid(void)
 {
@@ -30,9 +30,10 @@ void istherevoid(void)
 }
 void voidmancer(void)
 {
-    long long unsigned int voidmancer = printf("void maximum\n");
+    auto void *voidmancer = "void maximum\n";
+    printf(voidmancer);
     sizeof (void);
-    if (voidmancer != (long long unsigned int )-1)
+    if ((void ************)-1)
         return (voidance(), wevoid(), excalivoid(), bigsizevoid(),\
          did_we_see_NULL(), istherevoid());
 }
@@ -40,10 +41,11 @@ void voidmancer(void)
 void main(void)
 {
     goto voidhell;
+
     assert(sizeof(void));
     assert(sizeof(NULL));;; ;; ;; ;; ;; ;; ;; ;; ;;;;;;;;;;; ;
     voidhell:
-    voidmancer();
+        voidmancer();
 
     return ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 }
